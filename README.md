@@ -1,8 +1,8 @@
 Q21:
 
-*Source*: 
-1. https://github.com/SeanStaz/theCollatzConjecture.c
-2. https://man7.org/linux/man-pages/man2/fork.2.html
+*Resources*: 
+1. Code: https://github.com/SeanStaz/theCollatzConjecture.c
+2. fork() explanation: https://man7.org/linux/man-pages/man2/fork.2.html
 
 
 *Modifications*:
@@ -24,7 +24,8 @@ Q21:
 
 Q27:
 
-*Source*: https://github.com/manojkmeena/OS-Project
+*Resources*: 
+1. https://github.com/manojkmeena/OS-Project
 
 *Modifications*:
 1. Removed comments to run the file and added as a part of README.md
