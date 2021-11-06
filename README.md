@@ -1,6 +1,6 @@
 **Problem 3.21**
 
-<h2>Resources:<h2> 
+**Resources:**
 1. [Code](https://github.com/SeanStaz/theCollatzConjecture.c)
 2. [fork() Documentation](https://man7.org/linux/man-pages/man2/fork.2.html) 
 3. [Tutorial fork(), exec()](https://www.youtube.com/watch?v=IFEFVXvjiHY)
