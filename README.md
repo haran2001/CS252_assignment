@@ -1,4 +1,4 @@
-**Q21:**
+<h1>**Problem 3.21:**
 
 **Resources**: 
 1. [Code](https://github.com/SeanStaz/theCollatzConjecture.c)
@@ -9,7 +9,7 @@
 **Modifications**:
 1. Removed a print statement
 
- **Explanation* :
+ **Explanation** :
  1. Check if entered number is less than zero
  2. If not ask user to enter a new number.
  3. Start a child process
@@ -22,9 +22,9 @@
 2. Compile the Q21.c file using gcc Q21.c -o Q21
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
 4. To run the program type ./Q21.
-5. Use man <command name> to get documentation from terminal
+5. Use man <\command name> to get documentation from terminal
 
-**Q27:**
+<h1>**Problem 3.27:**
 
 **Resources**: 
 1. [Source code](https://github.com/manojkmeena/OS-Project) 
@@ -50,4 +50,4 @@
 3. In Terminal, Run echo "enter any data here." > input.txt
 3. In Terminal, Run ./cp input.txt copy.txt
 4. In Terminal, Run cat copy.txt
-5. Use man <command name> to get documentation from terminal
+5. Use man <\command name> to get documentation from terminal
