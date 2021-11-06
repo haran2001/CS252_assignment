@@ -1,6 +1,6 @@
-**Problem 3.21:**
+<h1>Problem 3.21<h1>
 
-**Resources**: 
+<h2>Resources:<h2> 
 1. [Code](https://github.com/SeanStaz/theCollatzConjecture.c)
 2. [fork() Documentation](https://man7.org/linux/man-pages/man2/fork.2.html) 
 3. [Tutorial fork(), exec()](https://www.youtube.com/watch?v=IFEFVXvjiHY)
@@ -24,7 +24,7 @@
 4. To run the program type ./Q21.
 5. Use man to get documentation from terminal
 
-**Problem 3.27:**
+<h1>Problem 3.27<h1>
 
 **Resources**: 
 1. [Source code](https://github.com/manojkmeena/OS-Project) 
