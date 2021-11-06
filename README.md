@@ -22,7 +22,7 @@
 2. Compile the Q21.c file using gcc Q21.c -o Q21
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
 4. To run the program type ./Q21.
-5. Use man <\command name> to get documentation from terminal
+5. Use man to get documentation from terminal
 
 <h1>**Problem 3.27:**
 
@@ -50,4 +50,4 @@
 3. In Terminal, Run echo "enter any data here." > input.txt
 3. In Terminal, Run ./cp input.txt copy.txt
 4. In Terminal, Run cat copy.txt
-5. Use man <\command name> to get documentation from terminal
+5. Use man to get documentation from terminal
