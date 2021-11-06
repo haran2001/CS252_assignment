@@ -1,4 +1,4 @@
-<h1>Problem 3.21<h1>
+**Problem 3.21**
 
 <h2>Resources:<h2> 
 1. [Code](https://github.com/SeanStaz/theCollatzConjecture.c)
@@ -24,7 +24,7 @@
 4. To run the program type ./Q21.
 5. Use man to get documentation from terminal
 
-<h1>Problem 3.27<h1>
+**Problem 3.27**
 
 **Resources**: 
 1. [Source code](https://github.com/manojkmeena/OS-Project) 
