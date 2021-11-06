@@ -6,15 +6,13 @@ int main()
 {
 	int n=0;
 	int k=0;
-	
 	pid_t pid;
-    // int pid;
 
 		do
 		{
 			printf("Please enter a number greater than 0 to run the Collatz Conjecture.\n"); 
   			scanf("%d", &k);	
-		}while (k <= 0);
+		} while (k <= 0);
 
 		pid = fork();
 
