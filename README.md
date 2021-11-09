@@ -42,7 +42,9 @@
 3. O_CREAT: Create the file if it doen't exist before opening.
 4. O_APPEND: Dont erase file contents everytime it's used/opened.
 5. The set of permissions used here is 0 and 0666 respectively.
-6. 
+6. The ID returned by fork() is 0, then the child process has been returned.
+7. If the ID is positive then the parent process is returned.
+8. If Id is negative then the pipr has failed.
 
 **Additional Instructions** :
 1. Clone the repo using git clone.

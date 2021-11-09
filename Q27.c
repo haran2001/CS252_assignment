@@ -5,7 +5,7 @@
 #include<string.h>
 #include<stdlib.h>
 #include<unistd.h>
-#include <sys/wait.h>
+// #include <sys/wait.h>
 #define size 50
 
 int main(int arvuments, char* arv[]) 
