@@ -30,9 +30,9 @@ The details provided below are in accordance with  [Operating System Concepts, T
     ```
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
 4. Run the program from the terminal using
-```
-./Q21
-```
+    ```
+    ./Q21
+    ```
 5. Enter a number 'n' in the terminal to apply the algorithm.
 6. Result will be displayed on the screen.
 6. You can use the man command to get documentation on any system call from terminal.
@@ -66,16 +66,16 @@ The details provided below are in accordance with  [Operating System Concepts, T
     ```
 2. Compile the Q21.c file using gcc Q27.c -o Q27
 3. Enter some content in a new file using
-```
-vi source.txt
-```
+    ```
+    vi source.txt
+    ```
 4. Run the binary using
-```
-./Q27 source.txt target.txt
-```
+    ```
+    ./Q27 source.txt target.txt
+    ```
 5. Contents of the source will be copied to target.txt
 6. You can check the contents of target using
-```
-vi target.txt
-```
+    ```
+    vi target.txt
+    ```
 5. Use 'man' to get documentation from terminal and 'find' to check if a given file exists in a directory.
