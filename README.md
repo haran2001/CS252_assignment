@@ -20,9 +20,9 @@ The details provided below are in accordance with
 
  **Additional Instructions** :
 1. Clone the repo using 
-    '''
+    ```
     git clone
-    '''
+    ```
 2. Compile the Q21.c file using 
     '''gcc Q21.c -o Q21'''
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
