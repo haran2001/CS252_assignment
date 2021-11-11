@@ -1,3 +1,4 @@
+The details provided below are in accordance with 
 **Problem 3.21**
 
 **Resources:**
@@ -12,17 +13,21 @@
  **Explanation** :
  1. Check if entered number is less than zero
  2. If not ask user to enter a new number.
- 3. Start a child process
- 4. Check the ID (child process returns 0, parent process returns child process ID)
- 5. If ID is zero (child process), start a while loop to implement the Collatz algorithm.
- 6. If ID is non zero, then parent process is completed and the whole thing is over.
+ 3. Execute the fork() system call. 
+ 4. Check the ID returned by fork. Zero implies child process else it's a parent process (returns child process ID).
+ 5. If ID is zero (child process), start a while loop to implement the Collatz algorithm, n/2 if 'n' is even or 3n + 1 if 'n' is odd, until you reach 1.
+ 6. If ID is non zero, then parent process is completed and the program terminates.
 
  **Additional Instructions** :
-1. Clone the repo using git clone.
-2. Compile the Q21.c file using gcc Q21.c -o Q21
+1. Clone the repo using 
+    '''git clone'''
+2. Compile the Q21.c file using 
+    '''gcc Q21.c -o Q21'''
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
-4. To run the program type ./Q21.
-5. Use man to get documentation from terminal
+4. To run the program type ./Q21 in the terminal.
+5. Enter a number 'n' in the terminal to apply the algorithm.
+6. Result will be displayed on the screen.
+6. Use the man command to get documentation on any system call from terminal.
 
 **Problem 3.27**
 
