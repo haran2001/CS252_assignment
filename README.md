@@ -1,5 +1,6 @@
-The details provided below are in accordance with 
-**Problem 3.21**
+The details provided below are in accordance with  [Operating System Concepts, Tenth Edition](https://codex.cs.yale.edu/avi/os-book/OS10/index.html)
+
+# Problem 3.21
 
 **Resources:**
 1. [Code](https://github.com/SeanStaz/theCollatzConjecture.c)
@@ -21,17 +22,22 @@ The details provided below are in accordance with
  **Additional Instructions** :
 1. Clone the repo using 
     ```
-    git clone
+    git clone https://github.com/haran2001/CS252_assignment
     ```
 2. Compile the Q21.c file using 
-    '''gcc Q21.c -o Q21'''
+    ```
+    gcc Q21.c -o Q21
+    ```
 3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
-4. To run the program type ./Q21 in the terminal.
+4. Run the program from the terminal using
+```
+./Q21
+```
 5. Enter a number 'n' in the terminal to apply the algorithm.
 6. Result will be displayed on the screen.
-6. Use the man command to get documentation on any system call from terminal.
+6. You can use the man command to get documentation on any system call from terminal.
 
-**Problem 3.27**
+# Problem 3.27
 
 **Resources**: 
 1. [Source code](https://github.com/manojkmeena/OS-Project) 
@@ -54,9 +60,22 @@ The details provided below are in accordance with
 8. If Id is negative then the pipr has failed.
 
 **Additional Instructions** :
-1. Clone the repo using git clone.
-2. Compile the Q21.c file using gcc filecopy.c -o cp
-3. In Terminal, Run echo "enter any data here." > input.txt
-3. In Terminal, Run ./cp input.txt copy.txt
-4. In Terminal, Run cat copy.txt
-5. Use man to get documentation from terminal
+1. Clone the repo using 
+    ```
+    git clone https://github.com/haran2001/CS252_assignment
+    ```
+2. Compile the Q21.c file using gcc Q27.c -o Q27
+3. Enter some content in a new file using
+```
+vi source.txt
+```
+4. Run the binary using
+```
+./Q27 source.txt target.txt
+```
+5. Contents of the source will be copied to target.txt
+6. You can check the contents of target using
+```
+vi target.txt
+```
+5. Use man to get documentation from terminal and find to check if a given file exists in a directory.
