@@ -78,4 +78,4 @@ vi source.txt
 ```
 vi target.txt
 ```
-5. Use man to get documentation from terminal and find to check if a given file exists in a directory.
+5. Use 'man' to get documentation from terminal and 'find' to check if a given file exists in a directory.
