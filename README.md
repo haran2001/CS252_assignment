@@ -28,7 +28,7 @@ The details provided below are in accordance with  [Operating System Concepts, T
     ```
     gcc Q21.c -o Q21
     ```
-3. To run the assignment go to the terminal and find the directory that contains the compiled file. 
+3. To run the binary go to the terminal and find the directory that contains the compiled file. 
 4. Run the program from the terminal using
     ```
     ./Q21
@@ -57,7 +57,7 @@ The details provided below are in accordance with  [Operating System Concepts, T
 5. The set of permissions used here is 0 and 0666 respectively.
 6. The ID returned by fork() is 0, then the child process has been returned.
 7. If the ID is positive then the parent process is returned.
-8. If Id is negative then the pipr has failed.
+8. If ID is negative then the pipr has failed.
 
 **Additional Instructions** :
 1. Clone the repo using 
