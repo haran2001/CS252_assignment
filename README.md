@@ -17,12 +17,12 @@ The details provided below are in accordance with  [Operating System Concepts, T
  2. If not ask user to enter a new number.
  3. Execute the fork() system call. 
  4. Check the ID returned by fork. Zero implies child process else it's a parent process (returns child process ID).
- 5. First the parent process runs which then put on wait until the child process starts.
+ 5. Both the parent and child processes start concurrently.
  5. If ID is zero (child process), start a while loop to implement the Collatz algorithm, n/2 if 'n' is even or 3n + 1 if 'n' is odd, until you reach 1.
  6. If ID is non zero, then parent process is completed and the program terminates.
 
  **Additional Instructions** :
-1. Clone the repo using 
+1. Clone the repository using 
     ```
     git clone https://github.com/haran2001/CS252_assignment
     ```
@@ -62,13 +62,13 @@ The details provided below are in accordance with  [Operating System Concepts, T
 7. The ID returned by fork() is 0, then the child process has been returned.
 8. If the ID is positive then the parent process is returned.
 9. If ID is negative then the pipe has failed.
-10. The entire process takes place in two parts, the parent process and child process.
-11. The parent process takes place first and is reponsible for reading the content from the source and writing it into the read buffer.
-12. The child process is next and reads the contents of the read buffer and writes it into the target file.
+10. The entire process takes place in two parts concurrently, the parent process and child process.
+11. The parent is reponsible for reading the content from the source and writing it into the read buffer.
+12. The child process reads the contents of the read buffer and writes it into the target file.
 13. The child terminates, followed by the parent and the program ends.  
 
 **Additional Instructions** :
-1. Clone the repo using 
+1. Clone the repository using 
     ```
     git clone https://github.com/haran2001/CS252_assignment
     ```

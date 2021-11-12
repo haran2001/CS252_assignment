@@ -38,7 +38,7 @@ int main()
 		
 			printf("%d\n",k);
 		}
-	
+
 		printf("Child process is done.\n");
 	}
 
