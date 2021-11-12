@@ -10,12 +10,14 @@ The details provided below are in accordance with  [Operating System Concepts, T
 
 **Modifications**:
 1. Removed a print statement
+2. Added comments.
 
  **Explanation** :
- 1. Check if entered number is less than zero
+ 1. Check if entered number is strictly greater than zero.
  2. If not ask user to enter a new number.
  3. Execute the fork() system call. 
  4. Check the ID returned by fork. Zero implies child process else it's a parent process (returns child process ID).
+ 5. First the parent process runs which then put on wait until the child process starts.
  5. If ID is zero (child process), start a while loop to implement the Collatz algorithm, n/2 if 'n' is even or 3n + 1 if 'n' is odd, until you reach 1.
  6. If ID is non zero, then parent process is completed and the program terminates.
 
@@ -48,16 +50,22 @@ The details provided below are in accordance with  [Operating System Concepts, T
 
 **Modifications**:
 1. Removed comments to run the file and added as a part of README.md
+2. Added new comments.
 
 **Explanation** :
-1. Use open() to open "fileOpen" to be read and "targetFile" to be copied to.
-2. O_RDWR: Allow both read and write operations on the file
-3. O_CREAT: Create the file if it doen't exist before opening.
-4. O_APPEND: Dont erase file contents everytime it's used/opened.
-5. The set of permissions used here is 0 and 0666 respectively.
-6. The ID returned by fork() is 0, then the child process has been returned.
-7. If the ID is positive then the parent process is returned.
-8. If ID is negative then the pipr has failed.
+1. Use open() to open "fileOpen" to be read, and "targetFile" to be copied to.
+2. If wither descriptors are -1, then file opning has failed.
+3. O_RDWR: Allow both read and write operations on the file
+4. O_CREAT: Create the file if it doen't exist before opening.
+5. O_APPEND: Dont erase file contents everytime it's used/opened.
+6. The set of permissions used here is 0 and 0666 respectively.
+7. The ID returned by fork() is 0, then the child process has been returned.
+8. If the ID is positive then the parent process is returned.
+9. If ID is negative then the pipe has failed.
+10. The entire process takes place in two parts, the parent process and child process.
+11. The parent process takes place first and is reponsible for reading the content from the source and writing it into the read buffer.
+12. The child process is next and reads the contents of the read buffer and writes it into the target file.
+13. The child terminates, followed by the parent and the program ends.  
 
 **Additional Instructions** :
 1. Clone the repo using 
