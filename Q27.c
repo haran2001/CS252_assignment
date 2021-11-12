@@ -10,7 +10,7 @@
 
 int main(int arvuments, char* arv[]) 
 {
-    //Declaration an initialization of variables
+    //Declaration and initialization of variables
     int file[2];
     pid_t childid;
     char readBuff[size];
