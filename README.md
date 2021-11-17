@@ -72,7 +72,10 @@ The details provided below are in accordance with  [Operating System Concepts, T
     ```
     git clone https://github.com/haran2001/CS252_assignment
     ```
-2. Compile the Q21.c file using gcc Q27.c -o Q27
+2. Compile the Q27.c file using 
+    ```
+    gcc Q27.c -o Q27
+    ```
 3. Enter some content in a new file using
     ```
     vi source.txt
